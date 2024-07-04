@@ -103,7 +103,18 @@ public class InventoryMananger {
       return;
     }
 
-    
+    for(Product product : inventory.values()){
+      System.out.println(product);
+    }
+  }
+
+  //A method to Process a sale
+  public void processSaleMenu(){
+    Map<String, Integer> saleItems = new HashMap<>();
+    while (true) {
+      System.out.print("Enter Product ID (or 'done' to Finish):  ");
+      St
+    }
   }
 
 }
